@@ -1,0 +1,243 @@
+.total-page {
+    margin-bottom: 5vh;
+}
+
+.black-bar {
+    height: 20px;
+    background-color: #0f0f0f;
+}
+
+.blue-bar {
+    height: 40px;
+    background-color: #0058a2;
+}
+
+.blue-bar div {
+    color: white;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.blue-bar div span {
+    font-weight: 800;
+}
+
+.collections {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 149px;
+    margin-right: 154px;
+    padding-top: 13px;
+}
+
+.collections p {
+    font-size: 14px;
+    margin-bottom: -36px;
+}
+
+.collections .see-collection {
+    font-size: 12px;
+    color: #a5bdfe;
+}
+
+.percent-off-circle {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    height: 45px;
+    width: 45px;
+    border-radius: 34px;
+    background-color: #ff4a1b;
+    margin-left: auto;
+    position: relative;
+    left: 7px;
+    top: 39px;
+}
+
+.percent-off-circle p {
+    color: white;
+    margin: auto;
+}
+
+.all-sunglass-images {
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+.all-sunglass-prices {
+    display: flex;
+    justify-content: space-around;
+}
+
+.single-sunglass-images,
+.single-sunglass-images-2 {
+    height: 225px;
+    width: 200px;
+    background-color: #ececec;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.single-sunglass-images img {
+    position: relative;
+    top: 33%;
+
+}
+
+.single-sunglass-images-2 img {
+    position: relative;
+    top: 25%;
+}
+
+.sunglasses-text {
+    font-size: 12px;
+    margin-bottom: 2px;
+}
+
+.cents-value {
+    font-size: 50%;
+    vertical-align: top;
+}
+
+
+.sunglass-price {
+    color: #ff4a1b;
+}
+
+.bottom-section {
+    display: flex;
+    justify-content: center;
+
+}
+
+.parallelogram-form {
+    width: 350px;
+    height: 350px;
+    background-color: #a5bdfe;
+    padding-top: 1%;
+    justify-self: center;
+    transform: skew(-10deg);
+}
+
+form {
+    width: 84%;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.parallelogram-form input {
+    width: 300px;
+
+}
+
+.contact-us-message {
+    font-size: 12px;
+    text-align: center;
+}
+
+@media only screen and (max-width: 1200px) {
+    .percent-off-circle {
+        right: 26px;
+        top: 40px;
+    }
+}
+
+@media only screen and (max-width: 1199px) {
+    .percent-off-circle {
+        right: 0px;
+        top: 35px;
+    }
+}
+
+@media only screen and (max-width: 1024px) {
+    .percent-off-circle {
+        right: 3px;
+        top: 38px;
+    }
+}
+
+@media only screen and (max-width: 991px) {
+
+    .contact-us-message {
+        text-align: center;
+    }
+
+    .bottom-section {
+        display: grid;
+        grid-template-rows: 50px;
+        grid-template-columns: auto;
+
+    }
+
+    .all-sunglass-images {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .collections {
+        margin-left: 133px;
+        margin-right: 133px
+    }
+
+    .percent-off-circle {
+        height: 35px;
+        width: 35px;
+        left: -65px;
+        top: 29px;
+    }
+
+    .percent-off-circle p {
+        font-size: 12px;
+    }
+
+    .sunglasses-text {
+        font-size: 8px;
+    }
+
+    .sunglass-price {
+        font-size: 8px;
+    }
+
+    .discounted-sunglass-price {
+        font-size: 8px;
+    }
+
+    .parallelogram-form {
+        justify-self: center;
+        margin-top: 10vh;
+
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .all-sunglass-images {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .all-sunglass-images {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+
+    .parallelogram-form {
+        margin-top: 8vh;
+
+    }
+
+}
+
+@media only screen and (max-width: 420px) {
+    .contact-us-header {
+        margin-top: 6vh;
+
+    }
+
+    .parallelogram-form {
+        margin-top: 6vh;
+    }
+}
